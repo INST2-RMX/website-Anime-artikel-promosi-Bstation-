@@ -1,0 +1,108 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+  background-color: #333;
+  color: black;
+}
+
+.navbar {
+  background-color: #222;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  
+ 
+}
+
+.navbar .logo h1 {
+  font-size: 24px;
+  color: #fff;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+.promosi-section, .artikel-section {
+  padding: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.card video, .card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-info {
+  padding: 15px;
+}
+
+.card-info .card-title {
+  font-family: 'Poppins', sans-serif; /* Menggunakan font Poppins */
+  font-size: 24px; /* Ukuran judul ditingkatkan */
+  margin-bottom: 10px;
+}
+
+.card-info p {
+  margin-bottom: 15px;
+}
+
+.card-info a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.card-info a:hover {
+  color: #ffcc00;
+}
+
+/* Hover effect */
+.card {
+  transition: transform 0.3s;
+}
+
+
+
+.promosi-section .section-title,
+.artikel-section .section-title {
+  margin-top: 70px; /* Atur margin atas yang cukup besar untuk menjaga jarak dari navbar */
+  color: #fff;
+}
+
+.card-info .separator {
+  border-bottom: 3px solid #ccc; /* Warna, ketebalan, dan gaya garis sesuai kebutuhan */
+  margin-bottom: 10px; /* Jarak antara garis dan deskripsi */
+}
